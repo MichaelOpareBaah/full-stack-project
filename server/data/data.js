@@ -1,6 +1,6 @@
-import reunion from '../public/images/Reunion.png'
-import kossDinner from '../public/images/koss dinner.png'
-import mentor from '../public/images/mentorship.png'
+// import reunion from '../public/images/Reunion.png'
+// import kossDinner from '../public/images/koss dinner.png'
+// import mentor from '../public/images/mentorship.png'
 
 
 
@@ -58,66 +58,66 @@ export const data =[
   
 ]
 
-export const eventsData=[
-    {
-      "id": 1,
-      "name": "KOSS Alumni Annual Reunion 2025",
-      "date": "2025-12-05T14:00:00Z",
-      "location": {
-        "venue": "KOSS Senior High School Grounds",
-        "city": "Konongo",
-        "country": "Ghana"
-      },
-      "category": "Reunion",
-      "description": "Reconnect with fellow KOSS alumni for a day of networking, celebration, and reminiscing about school memories.",
-      "registration_url": "https://www.kossalumni.org/register",
-      "tags": ["reunion", "networking", "alumni"],
-      "image_url": reunion
-    },
-    {
-      "id": 2,
-      "name": "KOSS Career Mentorship Program",
-      "date": "2025-11-20T10:00:00Z",
-      "location": {
-        "venue": "Accra Marriott Hotel",
-        "city": "Accra",
-        "country": "Ghana"
-      },
-      "category": "Mentorship",
-      "description": "A mentorship session where experienced alumni guide current students and recent graduates on career paths and opportunities.",
-      "registration_url": "https://www.kossalumni.org/mentorship",
-      "tags": ["mentorship", "career", "students"],
-      "image_url": mentor
-    },
-    {
-      "id": 3,
-      "name": "KOSS Charity Gala Dinner",
-      "date": "2025-12-12T18:00:00Z",
-      "location": {
-        "venue": "Labadi Beach Hotel",
-        "city": "Accra",
-        "country": "Ghana"
-      },
-      "category": "Charity",
-      "description": "A fundraising gala dinner to support school development projects and scholarships for deserving students.",
-      "registration_url": "https://www.kossalumni.org/charity-dinner",
-      "tags": ["charity", "fundraising", "dinner"],
-      "image_url": kossDinner
-    },
-    {
-      "id": 4,
-      "name": "KOSS Sports Meet 2025",
-      "date": "2025-11-28T08:00:00Z",
-      "location": {
-        "venue": "KOSS Sports Complex",
-        "city": "Konongo",
-        "country": "Ghana"
-      },
-      "category": "Sports",
-      "description": "Alumni and students come together for a day of friendly sports competitions and activities.",
-      "registration_url": "https://www.kossalumni.org/sports-meet",
-      "tags": ["sports", "alumni", "competition"],
-      "image_url": reunion
-    },
+// export const eventsData=[
+//     {
+//       "id": 1,
+//       "name": "KOSS Alumni Annual Reunion 2025",
+//       "date": "2025-12-05T14:00:00Z",
+//       "location": {
+//         "venue": "KOSS Senior High School Grounds",
+//         "city": "Konongo",
+//         "country": "Ghana"
+//       },
+//       "category": "Reunion",
+//       "description": "Reconnect with fellow KOSS alumni for a day of networking, celebration, and reminiscing about school memories.",
+//       "registration_url": "https://www.kossalumni.org/register",
+//       "tags": ["reunion", "networking", "alumni"],
+//       "image_url": reunion
+//     },
+//     {
+//       "id": 2,
+//       "name": "KOSS Career Mentorship Program",
+//       "date": "2025-11-20T10:00:00Z",
+//       "location": {
+//         "venue": "Accra Marriott Hotel",
+//         "city": "Accra",
+//         "country": "Ghana"
+//       },
+//       "category": "Mentorship",
+//       "description": "A mentorship session where experienced alumni guide current students and recent graduates on career paths and opportunities.",
+//       "registration_url": "https://www.kossalumni.org/mentorship",
+//       "tags": ["mentorship", "career", "students"],
+//       "image_url": mentor
+//     },
+//     {
+//       "id": 3,
+//       "name": "KOSS Charity Gala Dinner",
+//       "date": "2025-12-12T18:00:00Z",
+//       "location": {
+//         "venue": "Labadi Beach Hotel",
+//         "city": "Accra",
+//         "country": "Ghana"
+//       },
+//       "category": "Charity",
+//       "description": "A fundraising gala dinner to support school development projects and scholarships for deserving students.",
+//       "registration_url": "https://www.kossalumni.org/charity-dinner",
+//       "tags": ["charity", "fundraising", "dinner"],
+//       "image_url": kossDinner
+//     },
+//     {
+//       "id": 4,
+//       "name": "KOSS Sports Meet 2025",
+//       "date": "2025-11-28T08:00:00Z",
+//       "location": {
+//         "venue": "KOSS Sports Complex",
+//         "city": "Konongo",
+//         "country": "Ghana"
+//       },
+//       "category": "Sports",
+//       "description": "Alumni and students come together for a day of friendly sports competitions and activities.",
+//       "registration_url": "https://www.kossalumni.org/sports-meet",
+//       "tags": ["sports", "alumni", "competition"],
+//       "image_url": reunion
+//     },
     
-  ]
+//   ]

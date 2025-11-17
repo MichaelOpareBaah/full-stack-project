@@ -12,4 +12,4 @@ if(req.url==='/' && req.method==='GET'){
 
 }
 })
-server.listen(PORT,()=>{console.log(`${PORT} Server running on port 5000`);})
+server.listen(PORT,()=>{console.log(`${PORT} Server running on port 3000`);})

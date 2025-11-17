@@ -9,6 +9,6 @@ export async function serveStatic(res,dirname){
         const ext=path.extname(homePath)
         const contentType=getContentType(ext)
         const readHome= await fs.readFile(homePath)
-        sendResponse(res,200,contentType,'Its working')
+        sendResponse(res,200,contentType,'Its working now check')
 
 }
