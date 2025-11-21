@@ -127,7 +127,7 @@ export const eventsData=[
 export const projectData =[
   {
     "id": 1,
-    "title": "Welcome to Konongo Odumase Senior High",
+    "title": "School Infrastructure Project",
     "author": "Admin",
     "date": "2025-01-15",
     "content": "Konongo Odumase Senior High School (KOSS) has a proud legacy of academic excellence and discipline.",
@@ -135,7 +135,7 @@ export const projectData =[
   },
   {
     "id": 2,
-    "title": "Speech and Prize Giving Day 2025",
+    "title": "Water Borehole Project",
     "author": "Events Committee",
     "date": "2025-02-10",
     "content": "This year's Speech and Prize Giving Day celebrated outstanding students and teachers who have excelled in various fields.",
@@ -143,7 +143,7 @@ export const projectData =[
   },
   {
     "id": 3,
-    "title": "KOSS Robotics Team Wins Regional Contest",
+    "title": "Library Project",
     "author": "Tech Club",
     "date": "2025-03-04",
     "content": "The KOSS robotics team emerged winners in the Ashanti Regional High School Robotics Competition held at Kumasi Technical University.",
@@ -151,7 +151,7 @@ export const projectData =[
   },
   {
     "id": 4,
-    "title": "Meet Our 2025 Prefectorial Board",
+    "title": "IT Lab Project",
     "author": "Editorial Team",
     "date": "2025-04-18",
     "content": "A new group of prefects has been elected to uphold discipline and lead the student body with integrity and diligence.",
@@ -175,4 +175,25 @@ export const projectData =[
   },
  
   
+]
+
+export const teamData=[
+  {
+    'id':1,
+    'image':'https://images.pexels.com/photos/256257/pexels-photo-256257.jpeg',
+    'name':'michael opare',
+    'position':'president'
+  },
+   {
+    'id':2,
+    'image':'https://images.pexels.com/photos/256257/pexels-photo-256257.jpeg',
+    'name':'michael opare',
+    'position':'president'
+  },
+   {
+    'id':3,
+    'image':'https://images.pexels.com/photos/256257/pexels-photo-256257.jpeg',
+    'name':'michael opare',
+    'position':'president'
+  }
 ]

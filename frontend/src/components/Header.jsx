@@ -43,7 +43,12 @@ export default function Header() {
         <NavLink to='executives'  className='nav-item'>Executives</NavLink>
         {/* <NavLink to='blogs' onClick={handleToggle} className='nav-item'>Blogs</NavLink> */}
         <NavLink to='contact'  className='nav-item'>Contact Us</NavLink>
+        
      </div>
+     <div className='donate-btn'>
+       <NavLink to='/'  >Donate</NavLink>
+     </div>
+     
     </div>
   
   )

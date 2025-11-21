@@ -31,6 +31,16 @@ a{
   display: flex;
   justify-content: space-evenly;
 }
+.donate-btn{
+  padding: 10px 15px 10px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.donate-btn a{
+   color: #144800;
+   font-weight: 700;
+
+}
 .logo-details{
   display: flex;
   gap: 10px;
@@ -167,6 +177,74 @@ height: 200px;
          color: #FFFAF0; 
          padding: 40px;
          text-align: center;
+}
+/* Executive */
+.executive-wrapper{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.execution-position{
+  text-transform: uppercase;
+}
+.executive-img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
+/* Contact us */
+.contact-container{
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+  color: #fff;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #000;
+  background-color: #fff;
+  color: #000;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+.contact-btn {
+  background: #000;
+  color: #fff;
+  padding: 12px;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #333;
+  transform: translateY(-2px);
 }
 
 @media(max-width: 768px){

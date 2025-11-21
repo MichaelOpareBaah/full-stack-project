@@ -10,6 +10,7 @@ import EventDetail from './pages/EventDetail'
 import Contact from './pages/Contact'
 import Executives from './pages/Executives'
 import Projects from './pages/Projects'
+import ProjectDetail from './pages/ProjectDetail'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='contact' element={<Contact />}></Route>
         <Route path='executives' element={<Executives />}></Route>
         <Route path='projects' element={<Projects />}></Route>
+        <Route path='projects/:id' element={<ProjectDetail />}></Route>
       
       </Route>
      </Routes>

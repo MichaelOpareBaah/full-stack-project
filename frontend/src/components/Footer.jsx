@@ -7,7 +7,7 @@ export default function Footer() {
   
   return (
     <footer className={`footer ${show?'hidden-content':''}`}>
-      Footer
+      © Konongo Odumase Senior High Schoo Old Students Association.  Ashanti Region, Ghana.
     </footer>
   )
 }

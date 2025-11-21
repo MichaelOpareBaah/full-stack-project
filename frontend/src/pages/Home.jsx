@@ -56,7 +56,7 @@ export default function Home() {
        </section>
        <Blog limit={3} />
        <div className='explore-more-wrapper'>
-         <NavLink to='/blogs' className='explore-more'>Explore More Stories...</NavLink>
+         <NavLink to='/blogs' className='explore-more'>Explore More Stories</NavLink>
        </div>
             
     </div>
