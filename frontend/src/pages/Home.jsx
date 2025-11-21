@@ -5,6 +5,7 @@ import graduate from '../assets/graduate.jpg'
 import Blog from '../components/Blog';
 import Events from './Events';
 import Qrcode from '../assets/QRcode.JPG'
+import { NavLink } from 'react-router';
 
 export default function Home() {
     const {show}=useContext(HeaderContext)
@@ -44,12 +45,20 @@ export default function Home() {
        
        </div>
        <Events />
+       <div className='explore-more-wrapper'>
+         <NavLink to='/blogs' className='explore-more'>Load More...</NavLink>
+       </div>
+       
+
        <section className='scan-section'>
          <h1>Scan to join alumni whatsapp group</h1>
          <img src={Qrcode} alt=''/>
        </section>
-       <Blog />
-      
+       <Blog limit={3} />
+       <div className='explore-more-wrapper'>
+         <NavLink to='/blogs' className='explore-more'>Explore More Stories...</NavLink>
+       </div>
+            
     </div>
   )
 }
