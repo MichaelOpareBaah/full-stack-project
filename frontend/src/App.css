@@ -27,7 +27,7 @@ a{
 
 }
 .navbar-items{
-  width: 40%;
+  width: 60%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -141,20 +141,20 @@ height: 200px;
 /* events */
 .all-events{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: space-evenly;
   margin-top: 40px;
 }
 .event{
-   margin-bottom: 100px;
+   margin-bottom: 50px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(16,24,40,0.08);
   overflow: hidden;
   display: flex;
-  flex-direction: column;
   transition: transform .18s ease, box-shadow .18s ease;
   outline: none;
+  padding: 25px 40px 20px 40px;
 }
 .event:hover,
 .event:focus{
@@ -164,10 +164,33 @@ height: 200px;
 .event-details{
   padding: 0 10px 9px 10px;
 }
-
-.event-date{
+.event-details>p{
+  margin: 0;
+}
+.event-details>h4{
+  margin: 0;
+}
+.dates{
+  display: flex;
+  flex-direction: column;
+}
+.event-date-month{
   color: #144800;
   margin: 0;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.event-date-day{
+  color: #144800;
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.event-date-year{
+  color: #144800;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 .event-location{
   margin: 0;
@@ -232,7 +255,7 @@ height: 200px;
   resize: none;
 }
 .contact-btn {
-  background: #000;
+  background: #144800;
   color: #fff;
   padding: 12px;
   font-size: 17px;

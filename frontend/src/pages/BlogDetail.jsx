@@ -3,6 +3,7 @@ import { useParams } from 'react-router'
 import {data} from '../data'
 
 
+
 export default function BlogDetail() {
   const styles={
     width:'100%',

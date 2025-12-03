@@ -62,7 +62,13 @@ export const eventsData=[
     {
       "id": 1,
       "name": "KOSS Alumni Annual Reunion 2025",
-      "date": "2025-12-05T14:00:00Z",
+       "date": {
+        "month":"Dec ",
+        "day":"25" ,
+        "year": "2025"
+      },
+      "time":"9:30 AM",
+      "day":"Mon",
       "location": {
         "venue": "KOSS Senior High School Grounds",
         "city": "Konongo",
@@ -77,7 +83,13 @@ export const eventsData=[
     {
       "id": 2,
       "name": "KOSS Career Mentorship Program",
-      "date": "2025-11-20T10:00:00Z",
+         "date": {
+        "month":"Jan ",
+        "day":"10" ,
+        "year": "2026"
+      },
+      "time":"11:00 AM",
+      "day":"Wed",
       "location": {
         "venue": "Accra Marriott Hotel",
         "city": "Accra",
@@ -92,7 +104,13 @@ export const eventsData=[
     {
       "id": 3,
       "name": "KOSS Charity Gala Dinner",
-      "date": "2025-12-12T18:00:00Z",
+        "date": {
+        "month":"Feb ",
+        "day":"15" ,
+        "year": "2026"
+      },
+      "time":"10:00 AM",
+      "day":"Sat",
       "location": {
         "venue": "Labadi Beach Hotel",
         "city": "Accra",
@@ -104,21 +122,27 @@ export const eventsData=[
       "tags": ["charity", "fundraising", "dinner"],
       "image_url": kossDinner
     },
-    {
-      "id": 4,
-      "name": "KOSS Sports Meet 2025",
-      "date": "2025-11-28T08:00:00Z",
-      "location": {
-        "venue": "KOSS Sports Complex",
-        "city": "Konongo",
-        "country": "Ghana"
-      },
-      "category": "Sports",
-      "description": "Alumni and students come together for a day of friendly sports competitions and activities.",
-      "registration_url": "https://www.kossalumni.org/sports-meet",
-      "tags": ["sports", "alumni", "competition"],
-      "image_url": reunion
-    },
+    // {
+    //   "id": 4,
+    //   "name": "KOSS Sports Meet 2025",
+    //   "date": {
+    //     "month":"Mar ",
+    //     "day":"12" ,
+    //     "year": "2026"
+    //   },
+    //   "time":"12:00 PM",
+    //   "day":"Sun",
+    //   "location": {
+    //     "venue": "KOSS Sports Complex",
+    //     "city": "Konongo",
+    //     "country": "Ghana"
+    //   },
+    //   "category": "Sports",
+    //   "description": "Alumni and students come together for a day of friendly sports competitions and activities.",
+    //   "registration_url": "https://www.kossalumni.org/sports-meet",
+    //   "tags": ["sports", "alumni", "competition"],
+    //   "image_url": reunion
+    // },
     
   ]
 
