@@ -21,6 +21,7 @@ a{
 }
 .header-icons{
   display: none;
+  
 }
 .header-container{
   padding: 0;
@@ -30,6 +31,7 @@ a{
   width: 60%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .donate-btn{
   padding: 10px 15px 10px 15px;
@@ -67,6 +69,7 @@ a{
 }
 .section{
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 100px;
 }
 .sub-second{
@@ -79,6 +82,7 @@ a{
   background-color: #144800; 
   padding: 40px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .scan-section>h1{
        color: #FFFAF0; 
@@ -269,9 +273,12 @@ height: 200px;
   background: #333;
   transform: translateY(-2px);
 }
-
 @media(max-width: 768px){
-  
+    /* Tablet styles */
+}
+
+@media(max-width: 991px){
+    /* mobile styles */
   .navbar{
     flex-direction: column;
   }
