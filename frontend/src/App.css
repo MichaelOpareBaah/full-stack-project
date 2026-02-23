@@ -56,6 +56,7 @@ a{
 .container{
   width: 90%;
   margin: auto;
+  padding-top: 2em;
 }
 .hidden-content{
   display: none;
@@ -65,16 +66,21 @@ a{
    letter-spacing: -0.7px;
     font-weight: 700; 
     text-transform: uppercase;
+    font-size: 2.5em;
     
 }
 .section{
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 100px;
+  justify-content: space-between;
 }
 .sub-second{
-   flex: 1;   
+   flex: 0 0 50%;
+   width: 100%;
+   overflow-x: hidden;
 }
+
+
 .scan-section{
   display: flex;
   align-items: center;
@@ -82,7 +88,6 @@ a{
   background-color: #144800; 
   padding: 40px;
   justify-content: space-evenly;
-  flex-wrap: wrap;
 }
 .scan-section>h1{
        color: #FFFAF0; 
@@ -310,6 +315,12 @@ height: 200px;
 }
 .navbar-items{
   display: none;
+}
+.section{
+  flex-direction: column;
+}
+.scan-section{
+  flex-direction: column;
 }
 .section{
   flex-direction: column;

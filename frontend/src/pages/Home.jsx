@@ -24,7 +24,6 @@ export default function Home() {
             Ghana, boasts a proud alumni network known as Anuanom.
           </p>
           <p>
-            {" "}
             Since 1953, former students have excelled in education, sports,
             arts, and leadership. The alumni association supports the school
             through infrastructure projects, educational initiatives, and
@@ -40,7 +39,7 @@ export default function Home() {
           </div>
 
           <div className="sub-second">
-            <h4>The KOSS Old Students Association is committed to:</h4>
+            <h3>The KOSS Old Students Association is committed to:</h3>
             <ul>
               <li>
                 Supporting the school: Funding infrastructure, ICT facilities,
